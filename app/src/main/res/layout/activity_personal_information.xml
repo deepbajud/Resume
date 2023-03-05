@@ -1,31 +1,92 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:orientation="vertical"
-    android:gravity="center"
     android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
     tools:context=".Personal_Information">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="40dp"
         android:gravity="center"
-        android:text="hello"/>
+        android:text="Personal Details"
+        android:textSize="25dp"
+        android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/btnStart"
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:gravity="center"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/txtview"
-        android:textSize="35dp"
-        android:fontFamily="cursive"
-        android:textStyle="bold"
-        android:textAllCaps="false"
-        android:text="Next"/>
+        android:orientation="vertical">
 
 
-</LinearLayout>
+        <EditText
+            android:id="@+id/pd1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/personaldetails"
+            android:hint="Name"
+            android:paddingLeft="10dp"
+            android:textSize="16dp" />
+
+        <EditText
+            android:id="@+id/pd2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/personaldetails"
+            android:hint="hello"
+            android:paddingLeft="10dp"
+            android:textSize="16dp" />
+
+        <EditText
+            android:id="@+id/pd3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/personaldetails"
+            android:hint="hello"
+            android:paddingLeft="10dp"
+            android:textSize="16dp" />
+
+        <EditText
+            android:id="@+id/pd4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/personaldetails"
+            android:hint="hello"
+            android:paddingLeft="10dp"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/btnNext"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:background="@drawable/txtview"
+            android:fontFamily="cursive"
+            android:gravity="center"
+
+            android:text="Next"
+            android:textAllCaps="false"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

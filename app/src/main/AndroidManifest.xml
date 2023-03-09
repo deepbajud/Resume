@@ -12,6 +12,9 @@
         android:theme="@style/Theme.Resume"
         tools:targetApi="31">
         <activity
+            android:name=".Education"
+            android:exported="false" />
+        <activity
             android:name=".Work_History"
             android:exported="false" />
         <activity
@@ -19,7 +22,8 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true"
+            android:parentActivityName=".Personal_Information">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

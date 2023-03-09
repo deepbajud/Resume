@@ -23,7 +23,7 @@
 
 
         <EditText
-            android:id="@+id/pd1"
+            android:id="@+id/e1"
             android:inputType="text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -31,13 +31,13 @@
             android:layout_marginRight="10dp"
             android:layout_marginBottom="5dp"
             android:background="@drawable/personaldetails"
-            android:hint="Enter Your full Name"
+            android:hint="School Name"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
             android:textSize="16dp" />
 
         <EditText
-            android:id="@+id/pd2"
+            android:id="@+id/e2"
             android:inputType="phone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -45,27 +45,27 @@
             android:layout_marginRight="10dp"
             android:layout_marginBottom="5dp"
             android:background="@drawable/personaldetails"
-            android:hint="Enter Your Mobile Number"
+            android:hint="Percentage"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
             android:textSize="16dp" />
 
         <EditText
             android:inputType="textPostalAddress"
-            android:id="@+id/pd3"
+            android:id="@+id/e3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:layout_marginBottom="5dp"
             android:background="@drawable/personaldetails"
-            android:hint="Enter Your Residential Address"
+            android:hint="Board"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
             android:textSize="16dp" />
 
         <EditText
-            android:id="@+id/pd4"
+            android:id="@+id/e4"
             android:inputType="textEmailAddress"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -73,7 +73,33 @@
             android:layout_marginRight="10dp"
             android:layout_marginBottom="5dp"
             android:background="@drawable/personaldetails"
-            android:hint="Enter Your E-mail Address"
+            android:hint="University Name"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="16dp" />
+        <EditText
+            android:id="@+id/e5"
+            android:inputType="textEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/personaldetails"
+            android:hint="Collage Name"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="16dp" />
+        <EditText
+            android:id="@+id/e6"
+            android:inputType="textEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/personaldetails"
+            android:hint="grade"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
             android:textSize="16dp" />

@@ -27,9 +27,11 @@
 
     <Button
         android:id="@+id/blinkingButton"
-        android:layout_width="wrap_content"
+        android:layout_width="120dp"
         android:layout_height="wrap_content"
-        android:text="Blinking Button"
+        android:backgroundTint="#7DB5E1"
+        android:textColor="#AE797DCD"
+        android:text="Start"
         />
 
 </LinearLayout>
